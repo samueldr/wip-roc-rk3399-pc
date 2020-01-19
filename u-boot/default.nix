@@ -46,6 +46,9 @@ in
   '';
 
   patches = [
+    ./0001-rk3399-roc-pc.dts-Manual-sync-with-mainline-linux.patch
+    ./0002-roc-pc-rk3399-Enable-LED.patch
+    ./0003-rk3399-light-ROC-RK3399-PC-yellow-led-during-early-b.patch
   ];
 
   src = fetchFromGitLab {
